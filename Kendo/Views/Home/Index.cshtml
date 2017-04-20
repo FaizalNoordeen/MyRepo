@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+   
+}
+
+
+<style>
+    article, aside, figure, footer, header, hgroup,
+    menu, nav, section {
+        display: block;
+    }
+
+    #chart {
+        width: 100%;
+    }
+</style>
+
+<h2 style="text-align:center">Employee List</h2>
+    <head style="background-color:blue">
+        
+        <title></title>
+
+        <link href="~/Content/kendo.common.min.css" rel="stylesheet" />   
+        <link href="~/Content/kendo.blueopal.min.css" rel="stylesheet" />
+        @*<link href="~/Content/kendo.blueopal.min.css" rel="stylesheet" />*@
+        <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+        <script src="~/Scripts/kendo.all.min.js"></script>
+
+        <script src="~/Scripts/test.js"></script>
+        <script>
+            $(document).ready(function () {
+                Indexdocument();
+
+            });
+
+        </script>
+
+    </head>
+
+<body>
+   
+    <div id="grid" style="font-size:12px">
+
+    </div>
+   
+</body>
